@@ -173,3 +173,38 @@ footer p a {
     color: #f63e4e;
     font-weight: bold;
 }
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px 5%;
+    }
+
+    .navbar .menu li a, .Contact {
+        font-size: 13px;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .produits {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .produits .carte {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar .menu li a, .Contact {
+        font-size: 12px;
+    }
+
+    .produits {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
