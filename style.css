@@ -72,7 +72,9 @@ body {
 }
 
 .spices img {
-    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     max-width:100%;
     height: auto;
     border-radius: 12px;
