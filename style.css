@@ -72,6 +72,7 @@ body {
 }
 
 .spices img {
+    width: 20%;
     border-radius: 12px;
 }
 
@@ -180,14 +181,9 @@ footer p a {
     .navbar {
         padding: 10px 5%;
     }
-
     .navbar .menu li a, .Contact {
         font-size: 13px;
     }
-    .spices  {
-        width:23%;
-    }
-
     .content {
         flex-direction: column;
         text-align: center;
