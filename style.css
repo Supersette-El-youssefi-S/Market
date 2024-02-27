@@ -184,6 +184,12 @@ footer p a {
     .navbar .menu li a, .Contact {
         font-size: 13px;
     }
+    .spices img {
+        max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+        height: auto; /* Permet à la hauteur de l'image de s'ajuster automatiquement en fonction de sa largeur */
+        display: block; /* Assurez-vous que l'image est affichée en tant que bloc pour gérer correctement le remplissage */
+        margin: 0 auto; /* Centrer l'image horizontalement dans son conteneur */
+    }
 
     .content {
         flex-direction: column;
