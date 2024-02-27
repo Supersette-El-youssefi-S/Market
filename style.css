@@ -57,9 +57,9 @@ body {
 }
 
 .content {
-    /* background-image: url(img/Bg_banner.jpg);
+    background-image: url(img/Bg_banner.jpg);
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     padding: 0 7%;
     display: flex;
     /* flex-direction: column; */
@@ -67,7 +67,7 @@ body {
     align-items: center;
     color: #424144;
     height: 100vh;
-    background-color: #f63e4e;
+    /* background-color: #f63e4e; */
     gap: 7%;
 }
 
